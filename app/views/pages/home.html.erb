@@ -5,7 +5,7 @@
     <% if current_user && current_user.admin?%>
         <div align="center">
             <div class="home-buttons">
-                <p><%= link_to "Create User", new_user_registration_path, class: "btn btn-success btn-lg" %></p>
+                <p><%= link_to "Create User", new_user_path, class: "btn btn-success btn-lg" %></p>
             </div>
         </div>
     <% end %>
